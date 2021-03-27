@@ -10,7 +10,7 @@ class App extends Component{
       player: 'circle',
       positions:["circle","empty","empty","cross","empty","circle","cross","empty","empty"]
     } 
-  } 
+  }  
   render (){ 
     return(
     <div className="App">
