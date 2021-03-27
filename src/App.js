@@ -11,7 +11,7 @@ class App extends Component{
       positions:["circle","empty","empty","cross","empty","circle","cross","empty","empty"]
     }
   } 
-  render (){
+  render (){ 
     return(
     <div className="App">
       <Square position="0" value={this.state.positions[0]}/>
