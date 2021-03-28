@@ -1,7 +1,9 @@
 .circle{
-    width: 50%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    stroke: blueviolet;
+}
+
+svg{
+    stroke-width: 15px;
+    stroke-linecap: round;
+    fill: none;
 }
