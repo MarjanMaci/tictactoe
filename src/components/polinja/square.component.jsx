@@ -8,7 +8,7 @@ function Square({position,value,takeTurn}){
         if(value=="empty"){
             takeTurn(position)
         }
-    }
+    } 
     return(
     <div className='square' onClick={handleClick}>
             {value === 'circle' && <Circle/>}
