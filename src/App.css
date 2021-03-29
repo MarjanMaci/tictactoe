@@ -6,3 +6,14 @@
   row-gap: 10px;
   background-color: lightgray;
 }
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20%;
+}
+
+.wholeApp{
+  height: 600px;
+}
